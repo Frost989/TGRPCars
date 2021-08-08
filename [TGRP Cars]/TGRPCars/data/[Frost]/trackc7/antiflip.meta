@@ -1,0 +1,77 @@
+ <SubHandlingData>
+        <Item type="CVehicleWeaponHandlingData">
+          <uWeaponHash>
+            <Item>VEHICLE_WEAPON_HALFTRACK_DUALMG</Item>
+            <Item>VEHICLE_WEAPON_HALFTRACK_QUADMG</Item>
+            <Item />
+            <Item />
+          </uWeaponHash>
+          <WeaponSeats content="int_array">
+            2
+            2
+            0
+            0
+          </WeaponSeats>
+          <WeaponVehicleModType>
+            <Item>VMT_ROOF</Item>
+            <Item>VMT_ROOF</Item>
+            <Item />
+            <Item />
+          </WeaponVehicleModType>
+          <fTurretSpeed content="float_array">
+            10.000000
+            10.000000
+          </fTurretSpeed>
+          <fTurretPitchMin content="float_array">
+            -0.200000
+            -0.150000
+          </fTurretPitchMin>
+          <fTurretPitchMax content="float_array">
+            0.707000
+            0.707000
+          </fTurretPitchMax>
+          <fTurretCamPitchMin content="float_array">
+            -1.707000
+            -1.707000
+          </fTurretCamPitchMin>
+          <fTurretCamPitchMax content="float_array">
+            0.000000
+            0.000000
+          </fTurretCamPitchMax>
+          <fBulletVelocityForGravity content="float_array">
+            0.000000
+            0.000000
+          </fBulletVelocityForGravity>
+          <fTurretPitchForwardMin content="float_array">
+            -0.040000
+            -0.025000
+          </fTurretPitchForwardMin>
+		  <TurretPitchLimitData>
+			<Item>
+				<fForwardAngleMin value="28.00000" />
+				<fForwardAngleMax value="60.00000" />
+				<fBackwardAngleMin value="125.00000" />
+				<fBackwardAngleMid value="150.00000" />
+				<fBackwardAngleMax value="169.00000" />
+				<fBackwardForcedPitch value="-0.150" />
+			</Item>
+			<Item>
+				<fForwardAngleMin value="45.00000" />
+				<fForwardAngleMax value="90.00000" />
+				<fBackwardAngleMin value="125.00000" />
+				<fBackwardAngleMid value="139.00000" />
+				<fBackwardAngleMax value="169.00000" />
+				<fBackwardForcedPitch value="-0.150" />
+			</Item>
+		  </TurretPitchLimitData>
+          <fUvAnimationMult value="0.360000" />
+          <fMiscGadgetVar value="1.000000" />
+          <fWheelImpactOffset value="0.050000" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+      <fWeaponDamageScaledToVehHealthMult value="0.340000" />
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
